@@ -1,0 +1,7 @@
+__pycache__
+.pytest_cache
+.venv
+ambiente_virtual
+sherlock
+SITE
+DEVWEB

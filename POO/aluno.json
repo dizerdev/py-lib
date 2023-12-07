@@ -1,0 +1,36 @@
+{
+  "nome": "Paulo Ferreira",
+  "ra": "001234567",
+  "curso": "ADS",
+  "matriculado": true,
+  "data_formatura": null,
+  "disciplinas": [
+    {
+      "nome": "Programa\u00e7\u00e3o Orientada a Objetos",
+      "notas_acs": [
+        7,
+        8,
+        7.5
+      ],
+      "nota_prova": 8
+    },
+    {
+      "nome": "Desenvolvimento Web",
+      "notas_acs": [
+        10,
+        10,
+        7
+      ],
+      "nota_prova": 9
+    },
+    {
+      "nome": "Linguagem SQL",
+      "notas_acs": [
+        5,
+        9,
+        7.5
+      ],
+      "nota_prova": 8.5
+    }
+  ]
+}
