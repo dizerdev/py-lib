@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Planetas visitados</title>
+  </head>
+  <body>
+    {% with planetas = get_flashed_messages() %}
+      {% if planetas %}
+        <p>Os planetas visitados recentemente são:</p>
+        <ul>
+          {% for p in planetas %}
+            <li>{{p}}.</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>Desculpe, nenhum planeta foi visitado recentemente.</p>
+      {% endif %}
+    {% endwith %}
+  </body>
+</html>
+
