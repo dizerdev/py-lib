@@ -258,7 +258,7 @@ class TestStringMethods(unittest.TestCase):
     def test_002_qdt_jogos(self):
         self.assertTrue(110 * porbaixo < int(busca_qtd_jogos('star wars')) < porcima * 110)
         self.assertTrue(67 * porbaixo < int(busca_qtd_jogos('star trek')) < porcima * 67)
-        self.assertTrue( 10 * porbaixo < int(busca_qtd_jogos('menace')) < porcima *  10)
+        self.assertTrue( 10 * porbaixo < int(busca_qtd_jogos('menace')) < porcima * 10)
         self.assertTrue(41 * porbaixo < int(busca_qtd_jogos('future')) < porcima * 41)
 
     def test_003_nome_do_filme_por_id(self):

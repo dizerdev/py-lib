@@ -6,3 +6,5 @@ sherlock
 SITE
 DEVWEB
 server_ngrok.py
+flask-admin
+.env

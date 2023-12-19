@@ -1,6 +1,6 @@
 import model.aluno_model as aluno_model
 
-# AQUI SERÁ A PONTE DO PEDIDO VIEW PARA O ARQUIVO QUE MANIPULA DOS DADOS MODEL
+# AQUI SERÁ A PONTE DO PEDIDO VIEW PARA O ARQUIVO QUE MANIPULA OS DADOS COM O MODEL
 
 
 # listar todos os alunos do database
